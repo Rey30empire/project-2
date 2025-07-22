@@ -1,10 +1,10 @@
 import React from 'react';
 
 const LayoutFooter = ({
-  companyName = "TopNotch Remodeling LLC",
+  companyName = "TopNotch Remodeling LLC", // Nombre de la empresa en el pie de página
   year = new Date().getFullYear(),
-  contactEmail = "Rey30empire@gmail.com",
-  phoneNumber = "(972) 5330634"
+  contactEmail = "Rey30empire@gmail.com", // ¡Tu correo electrónico aquí!
+  phoneNumber = "(972) 533-0634" // ¡Tu número de teléfono aquí!
 }) => {
   return (
     <footer className="bg-gradient-to-r from-gray-800 to-gray-900 text-white py-12 px-4 sm:px-6 lg:px-8 shadow-inner-xl">
