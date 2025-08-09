@@ -2,28 +2,35 @@ import React from 'react';
 import ProjectCard from './ProjectCard';
 
 const ProjectsGallery = ({
-  heading = "Our Recent Projects",
+  heading = "Nuestros Proyectos Recientes 🛠️", // Puedes ajustar el título
   projects = [
     {
-      imageSrc: "https://via.placeholder.com/600x400?text=Bathroom+Remodel",
-      title: "Modern Bathroom Renovation",
-      description: "Complete overhaul of an old bathroom into a sleek, modern space with a new one-day shower installation."
+      imageSrc: "/images/projects/bon_shower.jpg", // ¡Ruta a tu imagen!
+      title: "Instalación de Ducha Premium",
+      description: "Transformación elegante con un sistema de ducha moderno y funcional."
     },
     {
-      imageSrc: "https://via.placeholder.com/600x400?text=Kitchen+Update",
-      title: "Kitchen Refresh & Handyman Fixes",
-      description: "Updated kitchen cabinets, new backsplash, and various handyman repairs to enhance functionality and aesthetics."
+      imageSrc: "/images/projects/shower_b.jpg", // ¡Ruta a tu imagen!
+      title: "Ducha Contemporánea",
+      description: "Diseño minimalista y materiales de alta calidad para un espacio relajante."
     },
     {
-      imageSrc: "https://via.placeholder.com/600x400?text=Tub+Installation",
-      title: "Luxurious Tub Replacement",
-      description: "Seamless one-day installation of a new, luxurious bathtub, transforming the bathing experience."
+      imageSrc: "/images/projects/shower_w.jpg", // ¡Ruta a tu imagen!
+      title: "Remodelación de Baño Completa",
+      description: "Desde la fontanería hasta los acabados, un baño renovado con estilo."
     },
     {
-      imageSrc: "https://via.placeholder.com/600x400?text=Home+Repair",
-      title: "Comprehensive Home Repair",
-      description: "Addressed multiple repair needs across the home, from leaky faucets to drywall patching, ensuring a well-maintained property."
-    }
+      imageSrc: "/images/projects/tub.jpg", // ¡Ruta a tu imagen!
+      title: "Instalación de Tina en un Día",
+      description: "Disfrute de una nueva tina de lujo instalada rápidamente y sin complicaciones."
+    },
+    // ¡AGREGA MÁS OBJETOS DE PROYECTO AQUÍ para cada una de tus fotos que hayas copiado!
+    // Ejemplo si tienes más fotos:
+    // {
+    //   imageSrc: "/images/projects/otra_foto.jpg",
+    //   title: "Título de Otro Proyecto",
+    //   description: "Descripción de otro de tus trabajos destacados."
+    // },
   ]
 }) => {
   return (
@@ -46,5 +53,3 @@ const ProjectsGallery = ({
 };
 
 export default ProjectsGallery;
-
-// DONE
